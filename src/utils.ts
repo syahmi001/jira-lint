@@ -59,6 +59,9 @@ export const getJIRAClient = (baseURL: string, token: string): JIRAClient => {
   const getTicketDetails = async (key: string): Promise<JIRADetails> => {
     try {
       const issue: JIRA.Issue = await getIssue(key);
+      console.log(' ')
+      console.log('getTicketDetails -> ', JSON.stringify(issue))
+      console.log(' ')
       const {
         fields: {
           issuetype: type,
