@@ -1,4 +1,4 @@
-name: 'jira-lint'
+name: 'jira-lint-mh'
 description: 'Add JIRA issue details to your GitHub pull request.'
 author: 'cleartax'
 inputs:
