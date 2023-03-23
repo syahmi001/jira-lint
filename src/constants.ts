@@ -25,3 +25,4 @@ export const JIRA_REGEX_MATCHER = /[A-Z]{2,}-\d+/g;
  * considered "too huge to review".
  */
 export const DEFAULT_PR_ADDITIONS_THRESHOLD = 800;
+
