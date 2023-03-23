@@ -114,7 +114,7 @@ describe('getJIRAIssueKeys()', () => {
 
     expect(getJIRAIssueKeys('feature/PL-4338-change-distribute-3p-coupon-logic')).toEqual(['PL-4338']);
     expect(getJIRAIssueKeys('chore/FAVE-26462-soft-mode-v-2-copy-updates-on-bottom-sheet')).toEqual(['FAVE-26462']);
-    expect(getJIRAIssueKeys('chore/SRE-611-postgresql-eleven-upgrade-db-migration')).toEqual(['SRE-611']);
+    expect(getJIRAIssueKeys('chore/SRE-611-postgresql-11-upgrade-db-migration')).toEqual(['SRE-611']);
 
     expect(getJIRAIssueKeys('chore/task-with-dashes--MOJO-6789')).toEqual(['MOJO-6789']);
     expect(getJIRAIssueKeys('chore/task_with_underscores--MOJO-6789')).toEqual(['MOJO-6789']);
